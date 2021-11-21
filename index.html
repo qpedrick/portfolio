@@ -5,113 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quinton Ulysses Pedrick</title>
-    <link rel = "stylesheet" href = "style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
     <!--Landing/Header/Navbar-->
-    <div class = "navbar">
-        <div class = "header-container">
-            <nav role = "navigation" class = "nav-menu w-clearfix w-nav-menu">
-                <ul>
-                    <ul>
-                    <a href = #aboutMe>Who Am I?</a>
-                    <a href = #portfolio>Portfolio</a>
-                    <a href = #contact>Contact Me!</a>
-                    </ul>
-                </ul>    
-            </nav>
+    <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+        <div class = 'container-fluid'>
+            <a class ='navbar-brand'>777</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" href="#aboutMe">About Me</a>
+                  <a class="nav-link active" href="#portfolio-heading">Portfolio</a>
+                  <a class="nav-link active" href="#contact-me">Contact Me!</a>
+                 </div>
+            </div>
         </div>
+    </nav>
+
+    <br>
+
+    <!--Name-->
+    <div id = 'name' class = 'name' style = 'text-align: right; font-family: monospace;'>
+        <p class = 'display-1 bg-dark text-white'>Quinton Ulysses Pedrick</p>
     </div>
-    <div id = 'name' class = 'name'>
-        <h1>Quinton Ulysses Pedrick</h1>
-    </div>
+
+    <br>
+
     <!--About Me-->
-    <div id = 'aboutMe' class = 'aboutMe'>
-        <h2>Who Am I?</h2>
-        <br>
-            <div id = 'innerAbout'class = 'innerAbout'>
-                <p>Change is everything, and how I pivot comprises the core of my character. Working in a multitude of industries across a relatively short period of time 
-                has given me a unique perspective on solving a variety of problems.  From an Amazon warehouse to boarding horses to running the operations of two hotels
-                to freelance photography; my experiences have curated my skill sets to accomplish creating, operating and growing a variety of businesses. 
-                Professional goals include disrupting traditional organizations to form better employees and teams, serve customers more efficiently 
-                and work with communities as a whole — wherever they are located. Long-term, my passion is to help individuals pivot trauma-based life experiences into 
-                life-changing, impactful and meaningful purpose.  Proudly in a Web Development cohort at Eleven Fifty Academy -based out of Indianapolis, IN.
-                </p>
-            </div>
-    </div>
-
-    <div class = "hero-section section-purple">
-        
-    </div>
-
-    <div class = "section section-white">
-        <h2 class = "heading-secondary">Skills</h2>
-        <div class = "w-container">
-            <!--Projects Links - Github-->
-            <div class = "w-layout-grid grid-3">
-                <a>html</a>
-                <a>css</a>
-                <a>javascript</a>
-            </div>
-        </div>
-    </div>
-    
-    <div class = "section-portfolio" id = "section-portfolio">
-        <h1 class = "porfolio-heading">Portfolio</h1>
-        <div class = "container-3 w-container">
-            <div class = "div-block-2 what-is-kast-text text-div centered">
-                <p class = "featured-paragraph">
-                    You can find me on <a href="https://github.com/qpedrick">github</a>
-                </p>
-                <br>
-                <p>
-                    OR
-                </p>
-
-                <br>
-                <p class = "featured-paragraph">
-                    connect with me on <a href = "https://www.linkedin.com/in/quintonpedrick/">LinkedIn</a>
+    <div id = 'aboutMe' class = 'container container-3 bg-light'>
+                <h2 style= 'text-align: left; font-family: cursive;'>Who Am I?</h2>
                     <br>
-                </p>
+                <div id = 'innerAbout'class = 'innerAbout' style = 'text-align: justify; font-family:Courier New, Courier, monospace;'>
+                    <strong>Change is everything.</strong>
+                    <br>
+                        <br>
+                    <small class='text-muted'>Transfroming the unfortunate events that happen in our lives into growing experiences is a crucial step towards true success in life.</small>
+                        <br>
+                    <br>
+                    <p">
+                    Working in a multitude of industries has given me a unique perspective on solving a variety of problems within different settings.  
+                    From an Amazon warehouse and boarding horses to running the operations of two hotels
+                    and building a freelance business; my experiences have curated my skill sets to accomplish creating, operating and growing a variety of businesses. 
+                    Professional goals include disrupting traditional organizations to form better employees and teams, serve customers more efficiently 
+                    and work with communities as a whole — wherever they are located. Long-term, my passion is to help individuals pivot trauma-based life experiences into 
+                    life-changing, impactful and meaningful purpose.  Proudly in a Web Development cohort at Eleven Fifty Academy -based out of Indianapolis, IN.
+                    </p>
+                </div>
+    </div>
 
+    <br>
+    <br>
+    <br>
+
+    <div class = 'container-fluid'>
+
+        <div class = 'row'>
+
+        <div class = 'col bg-dark' style = 'padding-left: 7%; padding-right:auto;'>
+
+
+    <div id = 'portfolio' class = 'container'>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/skills.png" alt="HTML/JAVASCRIPT/CSS">
+            <div class="card-body">
+              <p class="card-text">Slowly building projects with HTML, Javascript, and CSS.</p>
+            </div>
+          </div>
+    </div>
+
+        </div>
+
+        <div class = 'col bg-light' style = 'text-align: center;'>
+    
+        <h1 class = "heading-3">Portfolio</h1>
+            You can find me on <a href="https://github.com/qpedrick"target = '_blank'>github</a>
                 <br>
+                OR
+                <br>
+                connect with me on <a href = "https://www.linkedin.com/in/quintonpedrick/"target = '_blank' download>LinkedIn</a>
+                <br>
+
+        </div>
+
+            <div class = 'col bg-dark text-white' style = 'text-align: center;'>
 
                 <p>
                     Check out some of my projects:
                 </p>
                 <p>
-                    <a href = 'https://codepen.io/qpedrick/pen/gOxWOyL'>Cute lil creature</a>
+                    <a href = 'https://codepen.io/qpedrick/pen/gOxWOyL'target = '_blank'>Cute lil creature</a>
                 </p>
                 <p>
-                    <a href = 'https://qpedrick.github.io/StaticWebsite/'>Cloned Website</a>
+                    <a href = 'https://qpedrick.github.io/StaticWebsite/'target = '_blank'>Cloned Website</a>
                 </p>
+                <p>
+                    If you like my work and want to see my experiences, check out my <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = '_blank'>resume</a>!
+                </p>
+
             </div>
         </div>
     </div>
     
-    <div id = 'contactMe' class = "contact">
+    <div id = 'contact-me' class = "container-fluid text-end bg-secondary" style = 'margin-left: auto;'>
         <h1>Contact Me!</h1>
             <!--Formspree-->
-            <div id = 'form-container' class = 'form-container'>
+            <div id = 'form-container' class = 'form-group'>
             <form
                 action="https://formspree.io/f/mjvjnjna"
                 method="POST"
                 >
-                <label>
+                <br>
+                <label class = 'form control'>
                     Your email:
                     <input type="email" name="_replyto">
                 </label>
+                <br>
                 <label>
                     Your message:
                     <textarea name="message"></textarea>
                 </label>
+                <br>
                 <!-- your other form fields go here -->
                 <button type="submit">Send</button>
                 </form>
             </div>
     </div>
+
+
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

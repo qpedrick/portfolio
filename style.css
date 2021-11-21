@@ -56,7 +56,9 @@ body {
     background-image: url(https://www.kastapp.co/images/gradient-violet-bg.jpg);
     background-position: 50% 50%;
     background-size: cover;
-} */
+}
+
+*/
 
 .hero-section {
     position: relative;
@@ -296,8 +298,19 @@ h2 {
 .contactMe {
     margin-top: 33px;
     margin-bottom: 33px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-row: inherit;
+    margin-left: auto;
+    align-content: center;
 }
 
 .contactMe.form-container {
