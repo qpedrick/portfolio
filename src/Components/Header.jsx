@@ -7,26 +7,24 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
+
 export default function Header() {
 return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box
+    sx={{ 
+        diaplay: 'flex',
+        flexGrow: 1
+        }}>
         <AppBar position="static">
-        <Toolbar>
-            <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-            >
-            <MenuIcon />
-            </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
-            </Typography>
-            <Button color="inherit">Login</Button>
+            <Toolbar sx={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
+                <Typography sx={{display: 'flex', justifySelf: 'flex-start'}}>
+                Quinton Ulysses Pedrick
+                </Typography>
+                <IconButton sx={{display: 'flex', justifySelf: 'flex-end'}}>
+                    <MenuIcon/>
+                </IconButton>
             </Toolbar>
-            </AppBar>
+        </AppBar>
         </Box>
     );
 }
