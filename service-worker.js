@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/qpedrick/portfolio_22/precache-manifest.1f35cfcf0d232e1abbd86a633c4a833c.js"
+  "/portfolio_22/precache-manifest.d8d57b85becfe1be518d8665164d9014.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/qpedrick/portfolio_22/index.html", {
+workbox.routing.registerNavigationRoute("/portfolio_22/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

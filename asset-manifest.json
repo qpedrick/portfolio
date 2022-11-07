@@ -1,15 +1,15 @@
 {
-  "main.css": "/qpedrick/portfolio_22/static/css/main.9787b889.chunk.css",
-  "main.js": "/qpedrick/portfolio_22/static/js/main.e05e5c84.chunk.js",
-  "main.js.map": "/qpedrick/portfolio_22/static/js/main.e05e5c84.chunk.js.map",
-  "static/js/1.4fa7e7a6.chunk.js": "/qpedrick/portfolio_22/static/js/1.4fa7e7a6.chunk.js",
-  "static/js/1.4fa7e7a6.chunk.js.map": "/qpedrick/portfolio_22/static/js/1.4fa7e7a6.chunk.js.map",
-  "static/js/2.526b5fc8.chunk.js": "/qpedrick/portfolio_22/static/js/2.526b5fc8.chunk.js",
-  "static/js/2.526b5fc8.chunk.js.map": "/qpedrick/portfolio_22/static/js/2.526b5fc8.chunk.js.map",
-  "runtime~main.js": "/qpedrick/portfolio_22/static/js/runtime~main.bc722bf9.js",
-  "runtime~main.js.map": "/qpedrick/portfolio_22/static/js/runtime~main.bc722bf9.js.map",
-  "static/css/main.9787b889.chunk.css.map": "/qpedrick/portfolio_22/static/css/main.9787b889.chunk.css.map",
-  "index.html": "/qpedrick/portfolio_22/index.html",
-  "precache-manifest.1f35cfcf0d232e1abbd86a633c4a833c.js": "/qpedrick/portfolio_22/precache-manifest.1f35cfcf0d232e1abbd86a633c4a833c.js",
-  "service-worker.js": "/qpedrick/portfolio_22/service-worker.js"
+  "main.css": "/portfolio_22/static/css/main.9787b889.chunk.css",
+  "main.js": "/portfolio_22/static/js/main.e05e5c84.chunk.js",
+  "main.js.map": "/portfolio_22/static/js/main.e05e5c84.chunk.js.map",
+  "static/js/1.4fa7e7a6.chunk.js": "/portfolio_22/static/js/1.4fa7e7a6.chunk.js",
+  "static/js/1.4fa7e7a6.chunk.js.map": "/portfolio_22/static/js/1.4fa7e7a6.chunk.js.map",
+  "static/js/2.526b5fc8.chunk.js": "/portfolio_22/static/js/2.526b5fc8.chunk.js",
+  "static/js/2.526b5fc8.chunk.js.map": "/portfolio_22/static/js/2.526b5fc8.chunk.js.map",
+  "runtime~main.js": "/portfolio_22/static/js/runtime~main.27f64696.js",
+  "runtime~main.js.map": "/portfolio_22/static/js/runtime~main.27f64696.js.map",
+  "static/css/main.9787b889.chunk.css.map": "/portfolio_22/static/css/main.9787b889.chunk.css.map",
+  "index.html": "/portfolio_22/index.html",
+  "precache-manifest.d8d57b85becfe1be518d8665164d9014.js": "/portfolio_22/precache-manifest.d8d57b85becfe1be518d8665164d9014.js",
+  "service-worker.js": "/portfolio_22/service-worker.js"
 }
