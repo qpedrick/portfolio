@@ -2,7 +2,7 @@
   "name": "portfolio_22",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/qpedrick/portfolio_22",
+  "homepage": "https://qpedrick.github.io/portfolio_22/",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.10.5",

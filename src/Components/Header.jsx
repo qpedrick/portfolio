@@ -17,9 +17,9 @@ export default class Header extends React.Component {
                 diaplay: 'flex',
                 flexGrow: 1
                 }}>
-                <AppBar position="static" style={{background: 'black'}}>
+                <AppBar position="sticky" style={{background: 'black'}}>
                     <Toolbar sx={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
-                        <Typography variant= 'h6'fontFamily={''} x={{display: 'flex', justifySelf: 'flex-start'}}>
+                        <Typography variant= 'h6'fontFamily={'Courier New'} x={{display: 'flex', justifySelf: 'flex-start'}}>
                         Quinton Ulysses Pedrick
                         </Typography>
                         <Box sx={{display: 'flex', justifySelf: 'flex-end'}}>
