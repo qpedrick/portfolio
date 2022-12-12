@@ -1,33 +1,35 @@
 import React from "react";
-import { Box } from "@mui/system";
-
-//Scrapped for now
-//import Skills from "./Skills"; 
-
+import { Grid } from "@mui/material";
+import ReactCurvedText from "react-curved-text"
+import { maxWidth, width } from "@mui/system";
+import { WidthFull } from "@mui/icons-material";
 
 
 export default function About() {
     return(
-        <Box sx={{display:'flex', flexDirection:'column'}}>
-        <Box sx={{justifySelf:'flex-start'}}>
-            <h1 style={{fontFamily:'Courier New', textAlign: 'right'}}>
-                How can I help?
-            </h1>
-        </Box>
-        <Box sx={{}}>
-            <p style={{fontFamily:'Courier New', textAlign:'justify'}}>
-                I am a Full-Stack Web Developer who is a graduate of <a href="https://elevenfifty.org" target={'_blank'}>Eleven Fifty Academy</a>.
-                <br />
-                Eleven Fifty Academy taught me the fundamentals of HTML, CSS, JavaScript, React, and more.
-                <br />  
-                I am looking to build on this foundation while using my previous skills and experience in hotel management
-                <br />
-                to work on impactful teams with a customer-centric mindset.
-            </p>
-        </Box>
-        {/* <Box sx={{display:'flex', flexDirection:'row', justifyContent:'space-around'}}>
-            <Skills />
-        </Box>*/}
-        </Box>
+        <Grid container>
+            <Grid item sx={{margin: "auto"}} sm={12} md={6}>
+                <Grid item sx={{fontFamily: "fantasy", fontSize: "5vh", textAlign: "left", marginLeft: "15vw"}}><h1>Quinton</h1></Grid>
+                <Grid item sx={{fontFamily: "fantasy", fontSize: "5vh", textAlign: "left", marginLeft: "20vw"}}><h1>Ulysses</h1></Grid>
+                <Grid item sx={{fontFamily: "fantasy", fontSize: "5vh", textAlign: "left", marginLeft: "25vw"}}><h1>Pedrick</h1></Grid>
+            </Grid>
+            <Grid item sm={12} md={6}>
+                <Grid item>
+                <ReactCurvedText
+                    width={300}
+                    height={300}
+                    cx={150}
+                    cy={150}
+                    rx={100}
+                    ry={100}
+                    textProps={{style: {
+                        fontSize: "26px"}
+                        }}
+                    startOffset={0}
+                    text="How Can I Help? * How Can I Help? * How Can I Help? *"
+                    />
+                </Grid>
+            </Grid>
+        </Grid>
     )
 }
