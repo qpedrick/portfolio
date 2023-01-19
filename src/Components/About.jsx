@@ -1,8 +1,6 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import ReactCurvedText from "react-curved-text"
-import { maxWidth, width } from "@mui/system";
-import { WidthFull } from "@mui/icons-material";
+import ReactCurvedText from "react-curved-text";
 
 
 export default function About() {
