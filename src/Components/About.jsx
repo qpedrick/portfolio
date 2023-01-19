@@ -16,7 +16,7 @@ export default function About() {
         </Box>
         <Box sx={{}}>
             <p style={{fontFamily:'Courier New', textAlign:'justify'}}>
-                I am a Full-Stack Web Developer who is a graduate of <a href="https://elevenfifty.org" target={'_blank'}>Eleven Fifty Academy</a>.
+                I am a Full-Stack Web Developer who is a graduate of <a href="https://elevenfifty.org" rel='noreferrer' target={'_blank'}>Eleven Fifty Academy</a>.
                 <br />
                 Eleven Fifty Academy taught me the fundamentals of HTML, CSS, JavaScript, React, and more.
                 <br />  

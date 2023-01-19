@@ -7,6 +7,8 @@ import IconButton from '@mui/material/IconButton';
 //import MenuIcon from '@mui/icons-material/Menu';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FilePresentRoundedIcon from '@mui/icons-material/FilePresentRounded';
+import Pdf from './images/Quinton-Ulysses-Pedrick-Resume-PDF.pdf'
 
 
 export default class Header extends React.Component {
@@ -28,6 +30,9 @@ export default class Header extends React.Component {
                             </IconButton>
                         <IconButton href='https://www.linkedin.com/in/quintonpedrick' target={'_blank'} sx={{display: 'flex', background: 'white', m: 1}}>
                             <LinkedInIcon />
+                        </IconButton>
+                        <IconButton href={Pdf} target={'_blank'} tooltip='Resume' sx={{display: 'flex', background: 'white', m: 1}}>
+                            <FilePresentRoundedIcon />
                         </IconButton>
                         {/* <IconButton sx={{display: 'flex', background: 'white', m: 1}}>
                             <MenuIcon/>
