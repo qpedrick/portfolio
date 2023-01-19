@@ -22,8 +22,11 @@ export default class Projects extends Component {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <a href="https://speakeasyclient.herokuapp.com" target={'_blank'}>
-                        <Button size="small">Visit</Button>
+                        <a href="https://github.com/qpedrick/EFA112_BudgetApp_Client" rel='noreferrer' target={'_blank'}>
+                        <Button size="small">Visit Client Code Repo</Button>
+                        </a>
+                        <a href="https://github.com/qpedrick/EFA112_BudgetApp_Server" rel='noreferrer' target={'_blank'}>
+                        <Button size="small">Visit Server Code Repo</Button>
                         </a>
                     </CardActions>
                 </Card>
@@ -43,8 +46,32 @@ export default class Projects extends Component {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <a href="https://efa112clientbudgetapp.herokuapp.com" target={'_blank'}>
-                            <Button size="small">Visit</Button>
+                        <a href="https://github.com/qpedrick/RedBadge-SpeakEasyClient" rel='noreferrer' target={'_blank'}>
+                            <Button size="small">Visit Client Code Repo</Button>
+                        </a>
+                        <a href="https://github.com/qpedrick/RedBadge-SpeakEasyServer" rel='noreferrer' target={'_blank'}>
+                            <Button size="small">Visit Server Code Repo</Button>
+                        </a>
+                    </CardActions>
+                </Card>
+                <Card sx={{ maxWidth: 345, my: 2 }}>
+                    <CardMedia
+                        component="img"
+                        height="200"
+                        image={require('./images/24HR-GroupProject.png')}
+                        alt="green iguana"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Team 24 Hour API Project
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        This was a group frontend project that was done in 24 hours and incorporated 3rd third party APIs. The main objective in this project was to work with a small group on a tight deadline to complete a project by splitting tasks, working with git, and merging individual contributions. 
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <a href="https://github.com/qpedrick/EFA112-24HR-Group1-Project" rel='noreferrer' target={'_blank'}>
+                            <Button size="small">Visit Client Code Repo</Button>
                         </a>
                     </CardActions>
                 </Card>

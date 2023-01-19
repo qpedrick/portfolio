@@ -10,7 +10,7 @@ export default class Footer extends Component {
             <Box sx={{justifyContent: 'center',alignContent: 'center'}}>
                 <Typography sx={{fontFamily: 'Courier New'}}>Designed and Built by Quinton Ulysses Pedrick</Typography>
                 <CopyrightIcon/>
-                <Typography sx={{fontFamily: 'Courier New', alignItems: 'center'}}>2022</Typography>
+                <Typography sx={{fontFamily: 'Courier New', alignItems: 'center'}}>2023</Typography>
             </Box>
         )
     }
